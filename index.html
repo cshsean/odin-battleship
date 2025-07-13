@@ -6,6 +6,24 @@
     <title>Document</title>
 <script defer src="main.js"></script></head>
 <body>
-    <p>Hello</p>
+    <button class="visualizeBoard">See Board</button>
+    <div class="main">
+        <div class="player-side">
+            <div class="player-title">Player:</div>
+            <div id="player-board" class="board"></div>
+        </div>
+        <div class="computer-side">
+            <div class="computer-title">Opponent: </div>
+            <div id="bot-board" class="board"></div>
+        </div>
+    </div>
+    <div id="ships">
+        <div class="bottom-content">Ships:</div>
+        <div class="ship" draggable="true" data-length="5"></div>
+        <div class="ship" draggable="true" data-length="4"></div>
+        <div class="ship" draggable="true" data-length="3"></div>
+        <div class="ship" draggable="true" data-length="2"></div>
+        <div class="ship" draggable="true" data-length="2"></div>
+    </div>
 </body>
 </html>
