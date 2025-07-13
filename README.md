@@ -22,7 +22,7 @@ This is a browser-based implementation of the classic Battleship game where a pl
 - **Lack of Game State Persistence:** Currently, there’s no saving or restoring of game progress — implementing local storage or backend support would enhance user experience.
 - **Limited Accessibility:** The drag-and-drop interface lacks keyboard navigation support and screen reader friendliness.
 - **Basic AI Logic:** The computer's attack strategy is purely random without targeting logic, which can be improved to create a more challenging opponent.
-- **No Mobile Support Yet:** The UI and interactions have not been optimized for touch devices.
+- **Improved Game Mechanics** The player is unable to rotate or change position of ship once it has been placed in the grid.
 - **Minimal Styling and Animations:** Adding CSS animations or transitions could make the gameplay more engaging visually.
 
 ---
